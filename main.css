@@ -1,0 +1,304 @@
+/* hanken-grotesk-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/hanken-grotesk-v12-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/hanken-grotesk-v12-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/hanken-grotesk-v12-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/hanken-grotesk-v12-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/hanken-grotesk-v12-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/hanken-grotesk-v12-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/hanken-grotesk-v12-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/hanken-grotesk-v12-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100vh;
+  background-color: rgba(236, 242, 255, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  max-width: 736px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 32px;
+}
+
+.obshiy {
+  display: flex;
+  width: 100%;
+}
+
+.birinchi-tomon {
+  background: linear-gradient(to bottom, #7755ff, #2f2ce9);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  padding: 40px;
+  border-radius: 32px;
+}
+
+.rezult {
+  color: rgba(202, 201, 255, 1);
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 700;
+  font-family: "Hanken Grotesk";
+  margin-bottom: 35px;
+}
+
+.oval {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 28px;
+  background: linear-gradient(to bottom, #4d21c9, rgba(37, 33, 201, 0));
+}
+
+.oval h1 {
+  font-family: "Hanken Grotesk";
+  color: white;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 72px;
+}
+
+.oval p {
+  font-family: "Hanken Grotesk";
+  color: rgba(202, 201, 255, 1);
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.oval-titul {
+  font-family: "Hanken Grotesk";
+  color: white;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 14px;
+}
+
+.oval-text {
+  font-family: "Hanken Grotesk";
+  color: rgba(202, 201, 255, 1);
+  text-align: center;
+  font-size: 18px;
+  line-height: 100%;
+  padding: 0 20px;
+  margin-bottom: 55px;
+}
+
+.ikkinchi-tomon {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titel1 {
+  font-family: "Hanken Grotesk";
+  color: #303b59;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.summary-energy {
+  background-color: rgba(255, 0, 0, 0.05);
+  color: #ff5555;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  font-size: 19px;
+  display: flex;
+  justify-content: space-between;
+}
+.summary-memory {
+  background-color: rgba(255, 215, 0, 0.05);
+  color: #ffb21e;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+}
+.summary-komment {
+  background-color: rgba(0, 255, 128, 0.05);
+  color: #00bb8f;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+}
+.summary-eye {
+  background-color: rgba(0, 0, 255, 0.05);
+  color: #1125d6;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.summary p:last-child {
+  color: rgba(48, 59, 89, 0.5);
+}
+
+.summary p:last-child b {
+  color: #303b59;
+}
+.son {
+  color: rgba(48, 59, 89, 1);
+}
+.button {
+  background-color: #303b59;
+  color: white;
+  border: none;
+  padding: 18px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: rgba(105, 67, 255, 1);
+}
+
+@media (max-width: 600px) {
+  .box {
+    width: 100%;
+    max-width: 375px;
+    border-radius: 0 0 32px 32px;
+    margin-top: 0;
+  }
+
+  .obshiy {
+    flex-direction: column;
+  }
+
+  .birinchi-tomon {
+    width: 100%;
+    border-radius: 0 0 32px 32px;
+    padding: 24px 40px 40px 40px;
+  }
+
+  .oval {
+    width: 140px;
+    height: 140px;
+  }
+  .oval h1 {
+    font-size: 48px;
+  }
+  .oval-titul {
+    font-size: 24px;
+  }
+
+  .oval-text {
+    font-size: 15px;
+  }
+
+  .ikkinchi-tomon {
+    width: 100%;
+    padding: 24px 30px 30px 30px;
+  }
+
+  .titel1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .summary {
+    padding: 14px;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .button {
+    padding: 16px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
